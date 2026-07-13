@@ -1,11 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0">
   <diagram name="第 1 页" id="RneQ-lAXavWJF0wWTyo0">
-    <mxGraphModel dx="1354" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1142" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1142" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tWkimQcVhNyBGdeILhYm-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="P79LNxg_lGs8P4HROXfw-2" edge="1" parent="1" source="tWkimQcVhNyBGdeILhYm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P79LNxg_lGs8P4HROXfw-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWkimQcVhNyBGdeILhYm-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CharactorController" vertex="1">
           <mxGeometry height="60" width="120" x="150" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-5" edge="1" parent="1" source="P79LNxg_lGs8P4HROXfw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P79LNxg_lGs8P4HROXfw-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="290" />
+              <mxPoint x="470" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-7" edge="1" parent="1" source="P79LNxg_lGs8P4HROXfw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P79LNxg_lGs8P4HROXfw-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="290" />
+              <mxPoint x="520" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-9" edge="1" parent="1" source="P79LNxg_lGs8P4HROXfw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P79LNxg_lGs8P4HROXfw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="290" />
+              <mxPoint x="470" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="locomotion FSM" vertex="1">
+          <mxGeometry height="40" width="190" x="224" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="项目架构目标：&lt;div&gt;让角色能够根据所选择的武器的不同在进行攻击的时候能够进入不同的通道进行攻击。&lt;br&gt;需要解耦的地方：&lt;br&gt;* 不同武器应该抽象为武器层，或者 Action 层&lt;/div&gt;&lt;div&gt;* 不同武器对应不同的技能，可以和武器一起抽象为 Action&lt;/div&gt;&lt;div&gt;*&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="772" x="28" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-11" edge="1" parent="1" source="P79LNxg_lGs8P4HROXfw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P79LNxg_lGs8P4HROXfw-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-13" edge="1" parent="1" source="P79LNxg_lGs8P4HROXfw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P79LNxg_lGs8P4HROXfw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="基础移动" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="翻墙" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="滑行" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="行走" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P79LNxg_lGs8P4HROXfw-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="蹲下" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
